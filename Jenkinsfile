@@ -1,5 +1,5 @@
 common.killOldDeployments()
-version = '1.0.0'
+version = 'v1.0.1'
 stagingBaseNode {
     stage('Build') {
         gitCheckout { }
